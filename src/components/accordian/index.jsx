@@ -11,6 +11,7 @@ export default function Accordian() {
   console.log(selected)
   return (
     <div className='wrapper'>
+      <button> Enable Multi Selection</button>
       <div className='accordian'>
         {data && data.length > 0 ? (
           data.map((dataItem) => (
